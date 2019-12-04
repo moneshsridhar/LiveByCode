@@ -1,0 +1,90 @@
+categories:
+- JAVA
+- java
+conversations:
+  - hi
+  - what's up!!
+  - hello
+  - what can i do for you?
+  - thank you
+  - it's my pleasure
+  - good morning
+  - good morning!!
+  - good afternoon
+  - good afternoon?
+  - good night
+  - good night!! sleep well
+  - good evening
+  - good evening!!
+  - What is java
+  - It is an object-oriented language similar to C++, but with advanced and simplified features. Java is free to access and can run on all platforms and it is a popular programming language, created in 1995.It is owned by Oracle
+  - why java 
+  - It is easy to learn and simple to use, it is open-source and free, it is secure,fast and powerful.
+  - what is extension for java file
+  - ".java" is the extension for a java file
+  - how to add comment line in java
+  - Single line comments start with two forward slashes "//".Multi line comment start with "/*" and ends with "*/".
+  - what are datatypes in java
+  - int,float,char,boolean are some of the datatypes in java. 
+  - what are the flow control statements in java
+  - if...else if....else, switch statement, for loop, while loop, break, continue.
+  - what are the loops in java
+  - for loop, while loop, do-while loop are the looping statements in java.
+  - what is if..elseif conditional statements
+  - if (condition).{.//statements.}.else if(condition).{.//statements.}.else.{.//ststements.}.}
+  - what is the basic structure of java
+  - public class MyClass {.public static void main(String[] args) {.System.out.println("Hello World");.}.}
+  - what is switch statement
+  - Use the switch statement to select one of many code blocks to be executed.syntax:.switch(expression).{.case x:.// code block.break.case y:.// code block.break;.default:.// code block.}
+  - what is while loop
+  - The while loop loops through a block of code as long as a specified condition is true.Syntax:.while (condition).{.// code block to be executed.}
+  - what is for loop
+  - When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop.for (statement 1; statement 2; statement 3) {.// code block to be executed.}
+  - what is break statement
+  - It is used to "jump out" of a switch statement.The break statement can also be used to jump out of a loop
+  - what is continue statement
+  - The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
+  - what is an array in java
+  - Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.Syntax:.Type-1.String[] cars;.Type-2.String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};.Type-3.int[] myNum = {10, 20, 30, 40};
+  - what is exception in java
+  - When executing Java code, different errors can occur: coding errors made by the programmer, errors due to wrong input, or other unforeseeable things.When an error occurs, Java will normally stop and generate an error message. The technical term for this is: Java will throw an exception (throw an error).Syntax:.try {.//  Block of code to try.}.catch(Exception e) {.//  Block of code to handle errors.}.Syntax:.public class MyClass {.static void myMethod() {.// code to be executed.}.}
+  - what is method in java 
+  - A method is a block of code which only runs when it is called.You can pass data, known as parameters, into a method.Methods are used to perform certain actions, and they are also known as functions.Why use methods?.To reuse code:.define the code once,.and use it many times.
+  - what is a class in java
+  - Java is an object-oriented programming language.Everything in Java is associated with classes and objects, along with its attributes and methods. For example: in real life, a car is an object. The car has attributes, such as weight and color, and methods, such as drive and brake.A Class is like an object constructor, or a "blueprint" for creating objects.Syntax:.public class MyClass {.int x = 5;.} 
+  - what is an object
+  - In Java, an object is created from a class. We have already created the class named MyClass, so now we can use this to create objects.To create an object of MyClass, specify the class name, followed by the object name, and use the keyword new:.Example:.public class MyClass {.int x = 5;.public static void main(String[] args).{.MyClass myObj = new MyClass();.System.out.println(myObj.x);.}.}
+  - what is keyword in java
+  - Java has a set of keywords that are reserved words that cannot be used as variables, methods, classes, or any other identifiers.List of keywords:.abstract, assert, boolean, break, byte, case, catch, char, class, continue, const, default, do, double,etc. 
+  - what is string method in java
+  - The String class has a set of built-in methods that you can use on strings.Some Examples:.charAt(), codePointAt(), compareTo(), contentEquals(), equals(), indexOf(), length(), split(), toLowerCase(), toUpperCase(), trim(), valueOf(), etc.
+  - what is math method in java
+  - The Java Math class has many methods that allows you to perform mathematical tasks on numbers.Some Examples:.abs(x), ceil(x), cos(x), sin(x), tan(x), sqrt(x), log(x), floor(x),etc
+  - what is constructor in java
+  - A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created. It can be used to set initial values for object attributes.Syntax:.// Create a MyClass class.public class MyClass {.int x;  // Create a class attribute.// Create a class constructor for the MyClass class.public MyClass() {.x = 5;  // Set the initial value for the class attribute x.}.public static void main(String[] args) {.MyClass myObj = new MyClass(); // Create an object of class MyClass (This will call the constructor).System.out.println(myObj.x); // Print the value of x.}.}
+  - what is encapsulation in java
+  - The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must:.declare class variables/attributes as private (only accessible within the same class).provide public setter and getter methods to access and update the value of a private variable.Syntax:.public class Person {.private String name; // private = restricted access.// Getter.public String getName() {.return name;.}.// Setter.public void setName(String newName) {.this.name = newName;.}.}
+  - what is inheritance in java
+  - In Java, it is possible to inherit attributes and methods from one class to another. We group the "inheritance concept" into two categories:.subclass (child) - the class that inherits from another class.superclass (parent) - the class being inherited from.To inherit from a class, use the extends keyword.In the example below, the Car class (subclass) inherits the attributes and methods from the Vehicle class (superclass):
+  - what is polymorphism in java
+  - Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance..Like we specified in the previous chapter; Inheritance lets us inherit attributes and methods from another class. Polymorphism uses those methods to perform different tasks. This allows us to perform a single action in different ways.For example, think of a superclass called Animal that has a method called animalSound(). Subclasses of Animals could be Pigs, Cats, Dogs, Birds - And they also have their own implementation of an animal sound (the pig oinks, and the cat meows, etc.):
+  - what is abstraction in java
+  - Data abstraction is the process of hiding certain details and showing only essential information to the user..Abstraction can be achieved with either abstract classes or interfaces (which you will learn more about in the next chapter)..The abstract keyword is a non-access modifier, used for classes and methods:.Abstract class: is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class)..Abstract method: can only be used in an abstract class, and it does not have a body. The body is provided by the subclass (inherited from).
+  - what is an interface in java
+  - Another way to achieve abstraction in Java, is with interfaces.An interface is a completely "abstract class" that is used to group related methods with empty bodies
+  - what is enum in java
+  - An enum is a special "class" that represents a group of constants (unchangeable variables, like final variables).To create an enum, use the enum keyword (instead of class or interface), and separate the constants with a comma. Note that they should be in uppercase letters
+  - what is arraylist in java
+  - The ArrayList class is a resizable array, which can be found in the java.util package..The difference between a built-in array and an ArrayList in Java, is that the size of an array cannot be modified (if you want to add or remove elements to/from an array, you have to create a new one). While elements can be added and removed from an ArrayList whenever you want.  
+  - what is files in java
+  - The File class from the java.io package, allows us to work with files.To use the File class, create an object of the class, and specify the filename or directory name
+  - what is packages in java
+  - A package in Java is used to group related classes. Think of it as a folder in a file directory. We use packages to avoid name conflicts, and to write a better maintainable code. Packages are divided into two categories:.Built-in Packages (packages from the Java API).User-defined Packages (create your own packages)
+  - what is class attributes in java
+  - In the previous chapter, we used the term "variable" for x in the example (as shown below). It is actually an attribute of the class. Or you could say that class attributes are variables within a class
+  - what is class methods in java
+  - You learned from the Java Methods chapter that methods are declared within a class, and that they are used to perform certain actions
+  - what is modifier in java
+  - The public keyword is an access modifier, meaning that it is used to set the access level for classes, attributes, methods and constructors.We divide modifiers into two groups:.Access Modifiers - controls the access level(public,private,protected,default).Non-Access Modifiers - do not control access level, but provides other functionality(final,ststic,abstract,transient,synchronized,volatile)
+  - what is date java
+  - Java does not have a built-in Date class, but we can import the java.time package to work with the date and time API. The package includes many date and time classes.Example:(LocalDate,LocalTime,LocalDateTime,DateTimeFormatter)
